@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #1e1e1e, #0f0f0f);
+    color: #fff;
+}
+
+/* Center the login container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('meng.jpg') no-repeat center center/cover;
+}
+
+/* Styling for the login card */
+.login-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Card heading */
+.login-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffbb00;
+}
+
+/* Card description */
+.login-card p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Form styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #11b8ce; 
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.login-form input::placeholder {
+    color: #888;
+}
+
+.login-form button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: #0fe2c6;
+    color: #000;
+    font-size: 1rem;
+    font-style: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background: #40ffc6; 
+    transform: scale(1.05);
+}
